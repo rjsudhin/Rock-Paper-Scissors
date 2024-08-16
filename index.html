@@ -3,38 +3,31 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Rock Paper Scissors Game</title>
+      <title>Rock Paper Scissor</title>
       <link rel="stylesheet" href="css/styles.css">
    </head>
    <body>
       
       <h2 id="title">Rock Paper Scissors</h2>
-      
-
-      <div id="header-container">
-         <div id="user-enter-icon"></div>
-         <span>V/S</span>
-         <div id="computer-enter-icon"></div>
+      <div id="header-section">
+         <p>U : <span class="user-point-display"></span></p>
+         <p>Computer : <span class="user-point-display"></span></p>
       </div>
 
-      <div id="game-Controls">
+      <div id="game-ui">
+         <div id="user-selection-icon">
+            <!--user selection icons appears here-->
+         </div>
+         <div id="computer-selection-icon">
+            <!--computer selection icons appears here-->
+         </div>
+
+      </div>
+
+      <div id="game-controls">
          <button class="rock">Rock</button>
          <button class="paper">Paper</button>
          <button class="scissor">Scissors</button>
-      </div>
-
-      <div id="game-scores">
-         <div class="score-container">
-            <p>U</p>
-            <span id="user-score-display"></span>
-         </div>
-
-         <div class="middle-container"></div>
-
-         <div class="score-container second-score-container">
-            <p>Computer</p>
-            <span id="computer-score-display"></span>
-         </div>
       </div>
 
       <script src="js/script.js"></script>

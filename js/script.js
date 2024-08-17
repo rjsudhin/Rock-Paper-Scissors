@@ -14,8 +14,8 @@ const gameControls = document.querySelector('#game-controls')
 const buttonsContainer = document.querySelector('#buttons-container')
 const buttons = document.querySelectorAll('img')
 
-buttons.forEach((button) => {
-   button.addEventListener('click', (e) => {
+buttons.forEach((img) => {
+   img.addEventListener('click', (e) => {
       checkingUserUI()
       checkingComputerUI()
       let userSelection = e.target.className
@@ -48,13 +48,13 @@ function gettingComputerChoice() {
 function startingGame(user, computer) {
    // adding user selection UI
    let userUI = document.createElement('img')
-   userUI.src = '/icons/' + user + '.png'
+   userUI.src = './icons/' + user + '.png'
    userUI.classList.add('selection-ui')
    console.log(userUI)
    userSelectionIcon.appendChild(userUI)
    // adding computer selection UI
    let computerUI = document.createElement('img')
-   computerUI.src = '/icons/' + computer + '.png'
+   computerUI.src = './icons/' + computer + '.png'
    computerUI.classList.add('selection-ui')
    computerSelectionIcon.appendChild(computerUI)
 }

@@ -10,8 +10,8 @@
       
       <h2 id="title">Rock Paper Scissors</h2>
       <div id="header-section">
-         <p>U : <span class="user-point-display"></span></p>
-         <p>Computer : <span class="user-point-display"></span></p>
+         <p>U : <span class="user-score-display"></span></p>
+         <p>Computer : <span class="computer-score-display"></span></p>
       </div>
 
       <div id="game-ui">
@@ -25,10 +25,15 @@
       </div>
 
       <div id="game-controls">
-         <button class="rock">Rock</button>
-         <button class="paper">Paper</button>
-         <button class="scissor">Scissors</button>
+         <div id="buttons-container">
+            <img class="rock" width="48" height="48" src="https://img.icons8.com/fluency/48/rock.png" alt="rock"/>
+            <img class="paper" width="48" height="48" src="https://img.icons8.com/dusk/64/paper.png" alt="paper"/>
+            <img class="scissor" width="50" height="50" src="https://img.icons8.com/keek/100/scissors.png" alt="scissors"/>
+         </div>
+
       </div>
+
+      <p id="output-showing"></p>
 
       <script src="js/script.js"></script>
    </body>

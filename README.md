@@ -24,6 +24,9 @@ Game Rules
 The game will display who won each round and the final result at the end.
 Contributing
 
+Live Preview
+    https://rjsudhin.github.io/Rock-Paper-Scissors/
+
 Contributions are welcome! If you'd like to improve the game or fix any issues, please follow these steps:
 
     Fork the repository.

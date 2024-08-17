@@ -47,14 +47,16 @@ function gettingComputerChoice() {
 
 function startingGame(user, computer) {
    // adding user selection UI
-   let userUI = document.createElement('img')
+   let userUI = document.createElement('img')   
    userUI.src = './icons/' + user + '.png'
+   userUI.alt = user
    userUI.classList.add('selection-ui')
    console.log(userUI)
    userSelectionIcon.appendChild(userUI)
    // adding computer selection UI
    let computerUI = document.createElement('img')
    computerUI.src = './icons/' + computer + '.png'
+   computerUI.alt = computer
    computerUI.classList.add('selection-ui')
    computerSelectionIcon.appendChild(computerUI)
 }

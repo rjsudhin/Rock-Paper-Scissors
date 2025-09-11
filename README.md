@@ -2,14 +2,9 @@
 Rock Paper Scissors Game Bulding with Scracth
 
 
-Get a random computer choice returns with 'rock', 'paper', 'scissors'
-
-Get a user choice with prompt
-checking the choice is valid the user inputed
-
-Declare a player score variables globally
-track the players scores everytime
-
-Write the logic to play a single round
-Plays a singled round, increments the round winners' score and logs a winner announcement
-
+Add a score 0, 0 on the top
+Showing the Selection of choices ui in screen (rock, paper, scissors)
+Computer getting a random choices in (rock, paper, scissors)
+Then checking which one is winner and adding points
+Playing Five rounds then check the winner and announce to screen
+Also Five round after the game will reset and add reset button to next game

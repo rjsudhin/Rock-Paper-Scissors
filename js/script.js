@@ -61,6 +61,7 @@ function playRound(humanChoice, computerChoice) {
   // checking the game rounds choices
   if (humanChoice === computerChoice) {
     console.log('Tie')
+    
   } else if (
     (humanChoice == 'rock' && computerChoice == 'scissors') ||
     (humanChoice == 'paper' && computerChoice == 'rock') ||
@@ -111,7 +112,7 @@ function checkingWinner() {
   let winner = 'you' 
   if (computerScore == humanScore) {
     winner = 'Draw'
-    
+
   } else if (computerScore > humanScore) {
     winner = 'computer'
   }

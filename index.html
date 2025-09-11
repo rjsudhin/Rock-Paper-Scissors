@@ -8,13 +8,32 @@
   <link rel="icon" href="./icons/game-controller.png">
 </head>
 <body>
-  
-  <div class="userScore">0</div>
-  <div class="computerScore">0</div>
+  <div id="container">
+    <h1>Rock Paper Scissors</h1>
+    <div class="header">
+      <p>YOU:
+        <span class="user-score-display"></span>
+      </p>
+      <p>Computer:
+        <span class="computer-score-display"></span>
+      </p>
+    </div>
 
-  <h2 class="winner-alert"></h2>
+    <div class="game-grid">
+      <!--Player's result showing here-->
+      <div class="game-cards">
+        <div class="user-card"></div>
+        <div class="computer-card"></div>
+        <h2 class="game-winner-display"></h2>
+      </div>
+    </div>
 
-  <button class="GameStartButton">Start Game</button>
+    <div class="game-controller">
+      <button id="rock">Rock</button>
+      <button id="scissors">Scissors</button>
+      <button id="paper">Paper</button>
+    </div>
+  </div>
   <script src="js/script.js"></script>
 </body>
 </html>
